@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>[YOUR NAME] | DevOps Engineer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>[YOUR NAME]</h1>
+    <p class="tagline">Fresher DevOps Engineer • CI/CD • Kubernetes • Terraform • AWS</p>
+    <div class="links">
+      <a href="[GITHUB]">GitHub</a>
+      <a href="[LINKEDIN]">LinkedIn</a>
+      <a href="mailto:[EMAIL]">Email</a>
+      <a href="[RESUME_LINK]">Resume</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        I’m a fresher DevOps Engineer with hands-on projects in building CI/CD pipelines,
+        automating infrastructure using Terraform, deploying containerized applications on Kubernetes,
+        and setting up monitoring with Prometheus and Grafana.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Linux</li><li>Bash</li><li>Git</li><li>Docker</li><li>Kubernetes</li><li>Helm</li>
+        <li>Terraform</li><li>GitHub Actions</li><li>Jenkins</li><li>AWS</li>
+        <li>Prometheus</li><li>Grafana</li><li>Trivy</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>CI/CD Pipeline + Kubernetes Deployment</h3>
+        <p>
+          Built an end-to-end pipeline: test → scan → build image → push → deploy to Kubernetes using Helm.
+        </p>
+        <ul>
+          <li>GitHub Actions workflow with Trivy scanning</li>
+          <li>Helm-based deployment with rollback support</li>
+          <li>DockerHub/ECR image publishing</li>
+        </ul>
+        <p class="meta">
+          Tech: GitHub Actions, Docker, Kubernetes, Helm, Trivy |
+          <a href="[REPO_LINK]">Repo</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Terraform AWS Infrastructure (VPC + Compute)</h3>
+        <p>
+          Provisioned AWS infrastructure using Terraform modules and remote state best practices.
+        </p>
+        <ul>
+          <li>VPC with public/private subnets + routing</li>
+          <li>Security groups and IAM basics</li>
+          <li>S3 remote state + DynamoDB locking</li>
+        </ul>
+        <p class="meta">
+          Tech: Terraform, AWS |
+          <a href="[REPO_LINK]">Repo</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>Kubernetes Monitoring & Alerting</h3>
+        <p>
+          Implemented observability using Prometheus, Grafana dashboards, and alerting rules.
+        </p>
+        <ul>
+          <li>Golden signals dashboard (Latency/Traffic/Errors/Saturation)</li>
+          <li>Alerts for pod restarts & resource saturation</li>
+        </ul>
+        <p class="meta">
+          Tech: Prometheus, Grafana, Alertmanager, Helm |
+          <a href="[REPO_LINK]">Repo</a>
+        </p>
+      </article>
+
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:[EMAIL]">[EMAIL]</a></p>
+      <p>LinkedIn: <a href="[LINKEDIN]">[LINKEDIN]</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> [YOUR NAME]</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
